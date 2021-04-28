@@ -14,3 +14,13 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: label
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: label
+  description: Label
