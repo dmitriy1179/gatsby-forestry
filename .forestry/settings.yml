@@ -5,6 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/second
+  label: Second
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - second
+- type: directory
   path: content/posts
   label: Blog Posts
   create: documents
