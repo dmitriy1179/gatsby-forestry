@@ -24,3 +24,5 @@ fields:
       format: markdown
   label: label
   description: Label
+pages:
+- content/second/first-content.md
