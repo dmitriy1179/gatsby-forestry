@@ -29,6 +29,16 @@ fields:
   config: {}
   template: in-template
   label: into templ
+- name: field_group
+  type: field_group
+  config: {}
+  fields:
+  - name: first
+    type: text
+    config:
+      required: false
+    label: first
+  label: field group
 pages:
 - content/second/first-content.md
 - content/second/second-content.md
