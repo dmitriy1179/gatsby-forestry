@@ -7,10 +7,3 @@ fields:
   config:
     required: false
   label: site name
-- name: field_group
-  type: blocks
-  label: field group
-  template_types: []
-  config:
-    min: 
-    max: 
