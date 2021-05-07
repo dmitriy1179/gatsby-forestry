@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: config2.json
+  label: secon site info
+  match: "**/*"
+  read_only: false
 - type: directory
   path: content/second
   label: Second
