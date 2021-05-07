@@ -24,12 +24,6 @@ fields:
       format: markdown
   label: label
   description: Label
-- name: next_label
-  type: include
-  config: {}
-  template: second
-  label: label
-  hidden: false
 pages:
 - content/second/first-content.md
 - content/second/second-content.md
