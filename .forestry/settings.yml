@@ -11,6 +11,7 @@ sections:
   match: "**/*"
   new_doc_ext: md
   templates:
+  - in-template
   - second
 - type: directory
   path: content/posts
