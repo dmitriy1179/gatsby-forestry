@@ -34,6 +34,11 @@ fields:
       required: false
     label: first
   label: field group
+- name: site_info
+  type: include
+  config: {}
+  template: second-site-data
+  label: site info
 pages:
 - content/second/first-content.md
 - content/second/second-content.md
