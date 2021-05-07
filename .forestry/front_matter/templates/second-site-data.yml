@@ -7,3 +7,16 @@ fields:
   config:
     required: false
   label: site name
+- name: repetable_field_group
+  type: field_group_list
+  fields:
+  - name: author
+    type: text
+    config:
+      required: false
+    label: author
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: repetable field group
