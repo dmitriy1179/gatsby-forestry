@@ -16,4 +16,4 @@ fields:
     schema:
       format: markdown
   label: text2
-  hidden: true
+  hidden: false
