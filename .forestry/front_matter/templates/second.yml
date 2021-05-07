@@ -24,11 +24,6 @@ fields:
       format: markdown
   label: label
   description: Label
-- name: into_templ
-  type: include
-  config: {}
-  template: in-template
-  label: into templ
 - name: field_group
   type: field_group
   config: {}
