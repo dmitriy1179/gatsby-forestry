@@ -1,4 +1,9 @@
 ---
 label: second site data
 hide_body: false
-fields: []
+fields:
+- name: site_name
+  type: text
+  config:
+    required: false
+  label: site name
