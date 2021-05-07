@@ -24,6 +24,11 @@ fields:
       format: markdown
   label: label
   description: Label
+- name: into_templ
+  type: include
+  config: {}
+  template: in-template
+  label: into templ
 pages:
 - content/second/first-content.md
 - content/second/second-content.md
