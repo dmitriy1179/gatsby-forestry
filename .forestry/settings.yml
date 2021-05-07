@@ -23,7 +23,7 @@ sections:
 - type: document
   path: content/data/authors.yaml
   label: Author List
-  read_only: true
+  read_only: false
 - type: document
   path: content/data/info.json
   label: Info Page
