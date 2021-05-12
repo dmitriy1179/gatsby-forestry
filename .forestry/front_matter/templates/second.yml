@@ -39,6 +39,10 @@ fields:
   config: {}
   template: second-site-data
   label: site info
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - content/second/first-content.md
 - content/second/second-content.md
