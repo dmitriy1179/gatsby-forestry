@@ -8,6 +8,7 @@ field_group:
   first: ''
 site_name: ''
 repetable_field_group:
+- author: xxx
 - author: ddd
 tags:
 - gfhyfgsh
