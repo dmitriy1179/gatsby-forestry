@@ -7,7 +7,8 @@ label: second my content
 field_group:
   first: ''
 site_name: ''
-repetable_field_group: []
+repetable_field_group:
+- author: ddd
 tags:
 - gfhyfgsh
 - dfsghdfs
