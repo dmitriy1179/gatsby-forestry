@@ -43,6 +43,28 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: second_field_group
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: desc
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: desc
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: second field group
 pages:
 - content/second/first-content.md
 - content/second/second-content.md
