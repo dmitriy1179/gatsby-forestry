@@ -15,6 +15,11 @@ fields:
     config:
       required: false
     label: author
+  - name: sbhgh
+    type: text
+    config:
+      required: false
+    label: sbhgh
   config:
     min: 
     max: 
