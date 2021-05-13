@@ -19,7 +19,7 @@ tags:
 second_field_group:
 - title: h1
   desc: d1
-- title: ''
-  desc: ''
+- title: h2
+  desc: d2
 
 ---
